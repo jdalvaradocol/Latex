@@ -1,0 +1,114 @@
+
+\definecolor{barblue}{RGB}{153,204,254}
+\definecolor{groupblue}{RGB}{51,102,254}
+\definecolor{linkred}{RGB}{165,0,33}
+\renewcommand\sfdefault{phv}
+\renewcommand\mddefault{mc}
+\renewcommand\bfdefault{bc}
+\setganttlinklabel{s-s}{}%{START-TO-START}
+\setganttlinklabel{f-s}{}%{FINISH-TO-START}
+\setganttlinklabel{f-f}{}%{FINISH-TO-FINISH}
+\sffamily
+
+\begin{ganttchart}[x unit=0.29cm, y unit chart =0.9cm,
+    canvas/.append style={fill=none, draw=black!5, line width=.75pt},
+    hgrid style/.style={draw=black!5, line width=.75pt},
+    vgrid={*1{draw=black!5, line width=.75pt}},
+    %today=7, today rule/.style={ draw=black!64, dash pattern=on 3.5pt off 4.5pt, line width=1.5pt},
+    %today label font=\small\bfseries,
+    title/.style={draw=none, fill=none},
+    title label font=\bfseries\footnotesize,
+		title label node/.append style={below=6pt},
+    include title in canvas=false,
+    bar label font=\mdseries\small\color{black!70},
+    %bar label node/.append style={left=0cm},
+    bar/.append style={draw=none, fill=black!63},
+    bar incomplete/.append style={fill=barblue},
+    bar progress label font=\mdseries\footnotesize\color{white},
+    group incomplete/.append style={fill=groupblue},
+    group left shift=0,
+    group right shift=0,
+    group height=.5,
+    group peaks tip position=0,
+    group label node/.append style={left=.6cm},
+    group progress label font=\bfseries\small\color{white},
+    link/.style={-latex, line width=0.5pt, linkred},
+    link label font=\scriptsize\bfseries,
+    link label node/.append style={below left=-2pt and 0pt}
+  ]{1}{32}
+  \gantttitle[ title label node/.append style={below left=7pt and -3pt}]{Semana:\quad1}{1}
+  \gantttitlelist{2,,4,,6,,8,,10,,12,,14,,16,,18,,20,,22,,24,,26,,28,,30,,32}{1} \\
+  \ganttgroup[progress=80]{Planificación}{1}{2} \\
+  %\ganttbar[progress=80, name=EDT11]{\textbf{EDT 1.1} }{1}{1} \\
+  %\ganttbar[progress=80, name=EDT12]{\textbf{EDT 1.2} }{2}{2} \\ 	[grid]
+  
+	\ganttgroup[progress=0]{Revisión}{3}{6} \\
+  %\ganttbar[progress=0, name=EDT21]{\textbf{EDT 2.1} }{3}{4} \\
+  %\ganttbar[progress=0, name=EDT22]{\textbf{EDT 2.2} }{5}{5} \\
+  %\ganttbar[progress=0, name=EDT23]{\textbf{EDT 2.3} }{6}{6} \\	[grid]
+  
+	\ganttgroup[progress=0]{Desarrollo}{7}{22} \\
+  %\ganttbar[progress=0, name=EDT31]{\textbf{EDT 3.1} }{7}{8} \\
+  %\ganttbar[progress=0, name=EDT32]{\textbf{EDT 3.2} }{9}{11} \\
+  %\ganttbar[progress=0, name=EDT33]{\textbf{EDT 3.3} }{12}{13} \\
+  %\ganttbar[progress=0, name=EDT34]{\textbf{EDT 3.4} }{14}{16} \\
+	%\ganttbar[progress=0, name=EDT35]{\textbf{EDT 3.5} }{17}{19} \\
+  %\ganttbar[progress=0, name=EDT36]{\textbf{EDT 3.6} }{20}{22} \\	[grid]
+  
+	\ganttgroup[progress=0]{Verificcaion}{23}{26} \\
+  %\ganttbar[progress=0, name=EDT41]{\textbf{EDT 4.1} }{23}{23} \\
+  %\ganttbar[progress=0, name=EDT42]{\textbf{EDT 4.2} }{24}{24} \\
+  %\ganttbar[progress=0, name=EDT43]{\textbf{EDT 4.3} }{25}{25} \\
+  %\ganttbar[progress=0, name=EDT44]{\textbf{EDT 4.4} }{26}{26} \\	[grid]
+	
+  \ganttgroup[progress=0]{Cierre}{27}{32} \\
+  %\ganttbar[progress=0, name=EDT51]{\textbf{EDT 5.1} }{27}{27} \\
+  %\ganttbar[progress=0, name=EDT52]{\textbf{EDT 5.2} }{28}{28} \\
+  %\ganttbar[progress=0, name=EDT53]{\textbf{EDT 5.3} }{29}{29} \\
+  %\ganttbar[progress=0, name=EDT54]{\textbf{EDT 5.4} }{30}{31} \\
+  %\ganttbar[progress=0, name=EDT55]{\textbf{EDT 5.5} }{32}{32} 
+
+%  \ganttbar[progress=0, name=EDT55]{\textbf{EDT 5.5} Actividad A}{3}{5} 
+
+  %\ganttlink[link type=f-s]{EDT11}{EDT12}
+  %\ganttlink[link type=f-s]{EDT12}{EDT21}
+  %\ganttlink[link type=f-s]{EDT21}{EDT22}
+  %\ganttlink[link type=f-s]{EDT22}{EDT23}
+  %\ganttlink[link type=f-s]{EDT23}{EDT31}
+  %\ganttlink[link type=f-s]{EDT31}{EDT32}
+  %\ganttlink[link type=f-s]{EDT32}{EDT33}
+  %\ganttlink[link type=f-s]{EDT33}{EDT34}
+  %\ganttlink[link type=f-s]{EDT34}{EDT35}
+	%\ganttlink[link type=f-s]{EDT35}{EDT36}
+  %\ganttlink[link type=f-s]{EDT36}{EDT41}
+  %\ganttlink[link type=f-s]{EDT41}{EDT42}
+  %\ganttlink[link type=f-s]{EDT42}{EDT43}
+  %\ganttlink[link type=f-s]{EDT43}{EDT44}
+  %\ganttlink[link type=f-s]{EDT44}{EDT51}
+  %\ganttlink[link type=f-s]{EDT51}{EDT52}
+  %\ganttlink[link type=f-s]{EDT52}{EDT53}
+  %\ganttlink[link type=f-s]{EDT53}{EDT54}
+  %\ganttlink[link type=f-s]{EDT54}{EDT55}
+
+
+  
+	%\ganttlink[link type=s-s]{WBS1A}{WBS1B}
+  %\ganttlink[link type=f-s]{WBS1B}{WBS1C}
+  %\ganttlink[link type=f-f,link label node/.append style=left]{WBS1C}{WBS1D}
+
+\end{ganttchart}
+
+%
+% A simpler example from the package documentation:
+%
+%\begin{ganttchart}{1}{12}
+%  \gantttitle{2011}{12} \\
+%  \gantttitlelist{1,...,12}{1} \\
+%  \ganttgroup{Group 1}{1}{7} \\
+%  \ganttbar{Task 1}{1}{2} \\
+%  \ganttlinkedbar{Task 2}{3}{7} \ganttnewline
+%  \ganttmilestone{Milestone}{7} \ganttnewline
+%  \ganttbar{Final Task}{8}{12}
+%  \ganttlink{elem2}{elem3}
+%  \ganttlink{elem3}{elem4}
+%\end{ganttchart}

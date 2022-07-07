@@ -1,0 +1,24 @@
+\babel@toc {spanish}{}
+\contentsline {section}{Registros de cambios}{3}{Doc-Start}%
+\contentsline {section}{Acta de constitución del proyecto}{4}{table.caption.1}%
+\contentsline {section}{Descripción técnica-conceptual del proyecto a realizar}{4}{table.caption.2}%
+\contentsline {section}{Identificación y análisis de los interesados}{6}{figure.caption.5}%
+\contentsline {section}{1. Propósito del proyecto}{6}{table.caption.6}%
+\contentsline {section}{2. Alcance del proyecto}{7}{table.caption.6}%
+\contentsline {section}{3. Supuestos del proyecto}{7}{table.caption.6}%
+\contentsline {section}{4. Requerimientos}{7}{table.caption.6}%
+\contentsline {section}{Historias de usuarios (\textit {Product backlog})}{8}{Item.25}%
+\contentsline {section}{5. Entregables principales del proyecto}{9}{Item.25}%
+\contentsline {section}{6. Desglose del trabajo en tareas}{9}{Item.25}%
+\contentsline {section}{7. Diagrama de Activity On Node}{10}{Item.50}%
+\contentsline {section}{8. Diagrama de Gantt}{11}{Item.50}%
+\contentsline {section}{9. Matriz de uso de recursos de materiales}{12}{table.caption.7}%
+\contentsline {section}{10. Presupuesto detallado del proyecto}{13}{table.caption.8}%
+\contentsline {section}{11. Matriz de asignación de responsabilidades}{13}{table.caption.9}%
+\contentsline {section}{12. Gestión de riesgos}{13}{table.caption.10}%
+\contentsline {section}{13. Gestión de la calidad}{15}{table.caption.11}%
+\contentsline {section}{14. Comunicación del proyecto}{19}{table.caption.11}%
+\contentsline {section}{15. Gestión de compras}{19}{table.caption.12}%
+\contentsline {section}{16. Seguimiento y control}{19}{table.caption.12}%
+\contentsline {section}{17. Procesos de cierre}{20}{table.1}%
+\contentsfinish 

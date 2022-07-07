@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Descripción}{3}{0}{1}
+\beamer@sectionintoc {2}{Interesados}{6}{0}{2}
+\beamer@sectionintoc {3}{Propósito del proyecto}{7}{0}{3}
+\beamer@sectionintoc {4}{Alcances del proyecto}{8}{0}{4}
+\beamer@sectionintoc {5}{Requerimientos del proyecto}{9}{0}{5}
+\beamer@sectionintoc {6}{Diagrama actividades}{10}{0}{6}
+\beamer@sectionintoc {7}{Diagrama de Gantt}{11}{0}{7}
+\beamer@sectionintoc {8}{Gestion de riesgos}{12}{0}{8}
+\beamer@sectionintoc {9}{Gestion de calidad}{13}{0}{9}
